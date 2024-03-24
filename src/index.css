@@ -1,3 +1,36 @@
 body {
-	background-color: lemonchiffon;
+	margin: 0;
+	margin-top: 10vh;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+#logo {
+	height: 7vh;
+	transform: rotate(-45deg);
+}
+
+header {
+	display: flex;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	padding: 1vh 0;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #eeeeee;
+}
+
+header:hover {
+	display: flex;
+}
+
+.rightie {
+	display: flex;
+	gap: 2vw;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
 }

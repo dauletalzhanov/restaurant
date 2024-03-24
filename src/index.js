@@ -1,27 +1,17 @@
+// css
 import './index.css'
 
+// images
+import logo from './assets/fan.png'
+import spring from './assets/spring.svg'
+
+// content
 import about from './about.js'
 import menu from './menu.js'
 
-function component() {
-	const element = document.createElement('div');
-	element.innerHTML = 'thats right'
-	return element;
-}
+/////////////////////////////////////////
 
-document.querySelector('button').addEventListener('click', function(){
-	let one = Math.round(Math.random()*255)
-	let two = Math.round(Math.random()*255)
-	let three = Math.round(Math.random()*255)
-	let avg = (one+two+three)/3 
-	console.log(avg)
-	console.log(one, two, three)
-	
-	document.body.style.backgroundColor = `rgb(${one}, ${two}, ${three})`
 
-	document.body.style.color = avg < 120 ? 'white' : 'black'
-	
-})
 
 ///////////////////////////////////////////////////////////
 const aboutButton = document.querySelector('#aboutButton')
@@ -35,4 +25,24 @@ menuButton.addEventListener('click', ()=>{
 	menu()
 })
 
-document.body.appendChild(component());
+document.querySelector('#logo').src = spring
+
+const link = document.querySelector("link[rel~='icon']");
+if (!link) {
+    link = document.createElement('link');
+    link.rel = 'icon';
+    document.head.appendChild(link);
+}
+link.href = spring;
+
+////////////////////////////////////////////////////
+const header = document.querySelector('header')
+document.addEventListener('mousemove', function(e){
+    const mouseY = e.clientY
+    const windowHeight = window.innerHeight
+    
+    if(mouseY < (windowHeight * 0.15))
+        header.style.display = 'flex'
+    else
+        header.style.display = 'none'
+})

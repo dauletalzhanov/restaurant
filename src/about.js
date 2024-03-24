@@ -1,3 +1,4 @@
+//import './shript.css'
 
 export default function(){
 	let content = document.querySelector('.content')

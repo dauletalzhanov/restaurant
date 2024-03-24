@@ -1,0 +1,9 @@
+body {
+	background-image: url('./assets/shrimp.jpg');
+	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100%;
+	
+}
