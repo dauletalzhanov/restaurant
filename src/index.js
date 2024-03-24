@@ -5,11 +5,7 @@ import menu from './menu.js'
 
 function component() {
 	const element = document.createElement('div');
-  
-	// Lodash, currently included via a script, is required for this line to work
-	//element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 	element.innerHTML = 'thats right'
-  
 	return element;
 }
 
@@ -27,11 +23,13 @@ document.querySelector('button').addEventListener('click', function(){
 	
 })
 
+///////////////////////////////////////////////////////////
 const aboutButton = document.querySelector('#aboutButton')
 aboutButton.addEventListener('click', ()=> {
 	about()
 })
 
+/////////////////////////////////////////////////////
 const menuButton = document.querySelector('#menuButton')
 menuButton.addEventListener('click', ()=>{
 	menu()
