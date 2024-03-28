@@ -3,6 +3,11 @@ body {
 	margin-top: 10vh;
 	padding: 0;
 	font-family: sans-serif;
+
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
 }
 
 #logo {
@@ -18,11 +23,26 @@ header {
 	padding: 1vh 0;
 	justify-content: space-evenly;
 	align-items: center;
-	background-color: #eeeeee;
 }
 
 header:hover {
 	display: flex;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1vh;
+}
+nav > p {
+	margin: 0;
+	color: orange;
+	font-size: 1.35vw;
+}
+nav > p:first-child {
+	color: lightgray;
+	font-size: 2vh;
 }
 
 .rightie {
@@ -34,3 +54,22 @@ header:hover {
 	display: flex;
 	justify-content: center;
 }
+
+/* /////////////////////////// */
+.title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 6.7vh;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.title > h1 {
+	margin: 0;
+}
+
+.title > h1:first-child {
+	margin-top: 16vh;
+	font-size: 15vh;
+}
+

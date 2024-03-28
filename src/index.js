@@ -2,15 +2,24 @@
 import './index.css'
 
 // images
-import logo from './assets/fan.png'
 import spring from './assets/spring.svg'
 
 // content
 import about from './about.js'
 import menu from './menu.js'
+import home from './home.js'
 
 /////////////////////////////////////////
+home()
 
+// setting the favicon
+const link = document.querySelector("link[rel~='icon']");
+if (!link) {
+    link = document.createElement('link');
+    link.rel = 'icon';
+    document.head.appendChild(link);
+}
+link.href = spring;
 
 
 ///////////////////////////////////////////////////////////
@@ -25,15 +34,13 @@ menuButton.addEventListener('click', ()=>{
 	menu()
 })
 
-document.querySelector('#logo').src = spring
-
-const link = document.querySelector("link[rel~='icon']");
-if (!link) {
-    link = document.createElement('link');
-    link.rel = 'icon';
-    document.head.appendChild(link);
-}
-link.href = spring;
+///////////////////////////////////////////////////////
+//document.querySelector('#logo').src = spring
+let logo = document.querySelector('#logo')
+logo.src = spring
+logo.addEventListener('click', function(){
+    home()
+})
 
 ////////////////////////////////////////////////////
 const header = document.querySelector('header')
