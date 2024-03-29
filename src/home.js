@@ -6,7 +6,7 @@ export default function(){
 
 	document.body.style.backgroundImage = `url(${kyoto})`
 
-	document.querySelector('header').style.backgroundColor = 'rgba(0, 0, 0, 0.20)'
+	//document.querySelector('header').style.backgroundColor = 'rgba(0, 0, 0, 0.20)'
 	document.querySelector('header').style.color = 'white'
 	
 	let div = document.createElement('div')

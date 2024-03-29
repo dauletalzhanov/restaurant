@@ -1,0 +1,162 @@
+{
+	"Ramen": [
+		{
+			"name": "Ramen",
+			"price": 12.50
+		},
+		{
+			"name": "Miso Ramen",
+			"price": 14.50
+		},
+		{
+			"name": "Spicy Ramen",
+			"price": 13.50
+		},
+		{
+			"name": "Vietnamese Ramen (Tasteless)",
+			"price": 9.75
+		},
+		{
+			"name": "Veggie Ramen",
+			"price": 19.50
+		}
+	],
+
+	"Rice Dishes": [
+		{
+			"name": "Katsu Curry",
+			"price": 12.50
+		},
+		{
+			"name": "Takana Chahan",
+			"price": 14.50
+		},
+		{
+			"name": "Yakimeshi",
+			"price": 13.50
+		},
+		{
+			"name": "Yakimeshi (Beef)",
+			"price": 15.00
+		},
+		{
+			"name": "Curry Rice",
+			"price": 19.50
+		}
+	],
+
+	"Sushi": [
+		{
+			"name": "Ikura",
+			"price": 12.50
+		},
+		{
+			"name": "Tako",
+			"price": 14.50
+		},
+		{
+			"name": "Tekkadon",
+			"price": 13.50
+		},
+		{
+			"name": "Unagi",
+			"price": 9.75
+		},
+		{
+			"name": "Hotate",
+			"price": 19.50
+		}
+	],
+
+	"Noodles": [
+		{
+			"name": "Tempura Udon",
+			"price": 12.50
+		},
+		{
+			"name": "Yaku Udon",
+			"price": 14.50
+		},
+		{
+			"name": "Ten Zaru Soba",
+			"price": 13.50
+		},
+		{
+			"name": "Nishin Soba",
+			"price": 9.75
+		},
+		{
+			"name": "Kitsune Soba",
+			"price": 19.50
+		}
+	],
+
+	"Foreign Dishes": [
+		{
+			"name": "Hamburger with Fries",
+			"price": 22.50
+		},
+		{
+			"name": "Fried Chicken",
+			"price": 24.50
+		},
+		{
+			"name": "Sausage and Mash",
+			"price": 23.50
+		},
+		{
+			"name": "Deepdish Pizza",
+			"price": 29.00
+		},
+		{
+			"name": "Avacado on Toast",
+			"price": 19.50
+		}
+	],
+	
+	"Dessert": [
+		{
+			"name": "Mochi",
+			"price": 12.50
+		},
+		{
+			"name": "Bread",
+			"price": 14.50
+		},
+		{
+			"name": "Fluffy Cheesecake",
+			"price": 13.50
+		},
+		{
+			"name": "Matcha Ice Cream",
+			"price": 9.75
+		},
+		{
+			"name": "Dorayaki",
+			"price": 19.50
+		}
+	],
+	
+	"Drinks": [
+		{
+			"name": "Tea",
+			"price": 12.50
+		},
+		{
+			"name": "Japanese Tea",
+			"price": 14.50
+		},
+		{
+			"name": "Coffee",
+			"price": 13.50
+		},
+		{
+			"name": "Japanese Coffee",
+			"price": 9.75
+		},
+		{
+			"name": "Soda",
+			"price": 19.50
+		}
+	]	
+}
