@@ -60,6 +60,7 @@ nav > p:first-child {
 	justify-content: center;
 	
 	flex-direction: column;
+	margin-bottom: 10vh;
 }
 
 /* //////////////////////////////////// */
@@ -134,3 +135,109 @@ h3.category {
 	font-family: "Libre Baskerville", serif;
 }
 
+/* /////////////////////////// */
+.first, .second, .third {
+	padding: 2vh 2vw;
+	width: 60vw;
+	margin: 2vh auto;
+	background-color: #ffffffb2;
+	border-radius: 8px;
+}
+
+.first > h1 {
+	font-size: 3vw;
+	margin: 0;
+	color: brown;
+}
+
+.list_details {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.list_details > p {
+	margin: 0;
+	font-size: x-large;
+}
+
+.list_details > p > a {
+	text-decoration: none;
+	color:slateblue;
+}
+
+/* ---------- */
+.second {
+	text-align: center;
+	font-family: 'Noto Sans JP';
+	color: brown;
+	font-size: 7vw;
+	padding: 5vh 2vw;
+}
+
+/* ---------- */
+.third {
+	height: 90vh;
+
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: contain;
+
+	background-color: black;
+
+	text-align: right;
+	color: orange;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+
+}
+
+.third > input, .third > textarea {
+	width: 30vw;
+	margin-top: 1vh;
+	background-color: rgba(255, 255, 255, 0.40);
+	border: none;
+	height: 3vh;
+	color: moccasin;
+}
+
+.third > input:focus, .third > textarea:focus {
+	background-color: white;
+	color: black;
+}
+
+input::placeholder, textarea::placeholder {
+	color: orange;
+	font-family: sans-serif;
+}
+
+.third > textarea  {
+	height: 10vh;
+	margin: 6vh 0;
+}
+
+.third > button {
+	width: 10vw;
+	height: 5vh;
+	background-color:tomato;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	margin: 6vh 10vw;
+}
+
+.third > button:active {
+	background-color: white;
+	color: tomato;
+}
+
+.third > h1 {
+	margin: 1vh 10vw;
+}
+
+.third > label {
+	margin: 0 13vw;
+}

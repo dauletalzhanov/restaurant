@@ -8,6 +8,7 @@ import spring from './assets/spring.svg'
 import about from './about.js'
 import menu from './menu.js'
 import home from './home.js'
+import contact from './contact.js'
 
 /////////////////////////////////////////
 home()
@@ -32,6 +33,12 @@ aboutButton.addEventListener('click', ()=> {
 const menuButton = document.querySelector('#menuButton')
 menuButton.addEventListener('click', ()=>{
 	menu()
+})
+
+///////////////////////////////////////////////////////
+const contactButton = document.querySelector('#contactButton')
+contactButton.addEventListener('click', ()=>{
+	contact()
 })
 
 ///////////////////////////////////////////////////////
