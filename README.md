@@ -33,7 +33,14 @@ Restaurant consists of following pages:
 - The data is pulled from the .json file as well
 
 #### Contact Page
-- 
+- Contact Page has the contact information as well as reservation form
+- First section contains the contact information: "line" of contact details, embedded google maps location of the fictional restaurant, and a "line" of social media.
+- Contact details include telephone number, email, address and opening hours.
+- Social Media include twitter, facebook, instagram and tiktok links
+- Second section contains a Japanese proverb in Japanese
+- Third section includes a standard reservation form.
+
+The web application is meant to be explored. There's a lot more than meets the eye...
 
 ## Webpack
 This section explains how webpack was used to provide functionality for the web application.
