@@ -1,0 +1,26 @@
+[
+	{
+		"Name": "Juan",
+		"Date": "26 Jan, 2024",
+		"Rating": "5/5",
+		"Review": "BEST. FOOD. EVER"
+	},
+	{
+		"Name": "みさき",
+		"Date": "05 May, 2022",
+		"Rating": "5/5",
+		"Review": "食べ物は良かったです"
+	},
+	{
+		"Name": "ノア",
+		"Date": "15 Nov, 2024",
+		"Rating": "5/5",
+		"Review": "口の中でとろけます。 食べ物は絶妙で魅力的でした。 前衛的な。 ジェ・ネ・サイス・クイ. Melts in my mouth. The Food was exquisite and charming. avant garde. je ne sais quoi"
+	},
+	{
+		"Name": "Kevin",
+		"Date": "07 Apr, 2024",
+		"Rating": "1/5",
+		"Review": "no kfc! no one speaks english. no pubs."
+	}
+]
