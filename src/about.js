@@ -6,7 +6,8 @@ export default function(){
 	let content = document.querySelector('.content')
 	document.body.style.backgroundImage = ''
 	document.body.style.backgroundColor = '#eeeeee'
-	document.querySelector('header').style.color = 'BLACK'
+	document.querySelector('header').style.color = 'black'
+	document.querySelectorAll("nav > p:first-child").forEach((i)=> i.style.color = 'black')
 	
 
 	content.innerHTML = ''
@@ -71,7 +72,14 @@ export default function(){
 		let card = document.createElement('div')
 		card.classList.add('card')
 		card.innerHTML = `<div><div><p class="review-name">${reviews[i].Name}</p><p class="review-date">${reviews[i].Date}</p></div><p class="review-rating">${reviews[i].Rating}</p></div>`
-		card.innerHTML += `<p>${reviews[i].Review}</p>`
+		
+		if(Array.isArray(reviews[i].Review)){
+			let comments = reviews[i].Review
+			for(let j=0; j<comments.length; j++)
+				card.innerHTML += `<p>${comments[j]}</p>`
+		} else {
+			card.innerHTML += `<p>${ reviews[i].Review} </p>`
+		}
 		tresDiv.appendChild(card)
 	}
 	tres.appendChild(tresDiv)

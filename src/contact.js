@@ -6,6 +6,7 @@ export default function(){
 	document.body.style.backgroundColor = 'rgb(247, 242, 236)'
 	document.body.style.backgroundColor = 'darkgray'
 	document.querySelector('header').style.color = 'black'
+	document.querySelectorAll("nav > p:first-child").forEach((i)=> i.style.color = 'white')
 	content.innerHTML = ''
 
 
@@ -82,7 +83,7 @@ export default function(){
 	
 	third.style.backgroundImage = `url(${image})`
 	let h1Booking = document.createElement('h1')
-	h1Booking.innerHTML = 'Revervations'
+	h1Booking.innerHTML = 'Reservations'
 	
 	third.appendChild(h1Booking)
 
@@ -108,18 +109,34 @@ export default function(){
 
 	let label5ish = document.createElement('label')
 	label5ish.innerHTML = 'Book a Time Slot'
-
 	third.appendChild(label5ish)
+
 	let label5 = document.createElement('input')
 	label5.setAttribute('type', 'time')
 	third.appendChild(label5)
 
-	
 	let label6 = document.createElement('input')
-	label6.setAttribute('type', 'text')
-	label6.placeholder = 'Where would you like to seat?'
+	label6.setAttribute('type', 'date')
 	third.appendChild(label6)
+
+	//let label7 = document.createElement('input')
+	//label7.setAttribute('type', 'text')
+	//label7.placeholder = 'Where would you like to seat?'
+	//third.appendChild(label7)
+
+	let label7ish = document.createElement('label')
+	label7ish.innerHTML = 'Where would you like to sit?'
+	third.appendChild(label7ish)
+
+
+	let label7 = document.createElement('select')
+	label7.innerHTML = '<option>Normal Lounge</option>'
+	label7.innerHTML += '<option>By the Bar</option>'
+	label7.innerHTML += '<option>Outside</option>'
+	label7.innerHTML += '<option>VIP Lounge</option>'
 	
+	third.appendChild(label7)
+
 	const button = document.createElement('button')
 	button.innerHTML = 'Book!'
 	third.appendChild(button)

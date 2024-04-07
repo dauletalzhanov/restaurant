@@ -13,11 +13,9 @@ export default function(){
 	content.innerHTML = ''
 
 	document.body.style.backgroundImage = ''
-	//document.body.style.backgroundImage = `url(${rice})`
-	//document.body.style.backgroundImage += `,url(${chicken})`
-	
 	document.body.style.backgroundColor = '#eeeeee'
 	document.querySelector('header').style.color = 'black'
+	document.querySelectorAll("nav > p:first-child").forEach((i)=> i.style.color = 'black')
 
 	let backgrounds = [ramen, rice, sushi, noodles, chicken, flan, coffee]
 	let b = 0

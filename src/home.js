@@ -3,11 +3,9 @@ import kyoto from './assets/kyoto.jpg'
 export default function(){
 	let content = document.querySelector('.content')
 	content.innerHTML = ''
-
 	document.body.style.backgroundImage = `url(${kyoto})`
-
-	//document.querySelector('header').style.backgroundColor = 'rgba(0, 0, 0, 0.20)'
 	document.querySelector('header').style.color = 'white'
+	document.querySelectorAll("nav > p:first-child").forEach((i)=> i.style.color = 'white')
 	
 	let div = document.createElement('div')
 	div.classList.add('title')
