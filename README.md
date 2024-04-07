@@ -40,8 +40,26 @@ Restaurant consists of following pages:
 - Second section contains a Japanese proverb in Japanese
 - Third section includes a standard reservation form.
 
-The web application is meant to be explored. There's a lot more than meets the eye...
+###### The web application is meant to be explored. There's a lot more than meets the eye that's not covered in here...
 
-## Webpack
+# Webpack
 This section explains how webpack was used to provide functionality for the web application.
+
+## The webpack uses: 
+- Webpack version - 5.91.0
+- Template form
+- JSON parser
+- CSS parser
+- webpack-dev-server (for development)
+- For production mode, standard webpack building / compiling was used
+
+## Web Design
+- The web application basically uses the template to build a single page linked a single index.js
+- Inside index.js, the logic was set up to navigate through different parts of the website by overwritting the previous version
+- index.js calls other .js scripts that contain bodies for functions that generate the pages
+- Within those .js files, the functions utilize the webpack features listed above
+- The whole application is only a single page
+
+
+
 
