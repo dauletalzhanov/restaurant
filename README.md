@@ -1,5 +1,5 @@
 # Restaurant
-Web application for a fictional restaurant set in Japan. The website was built using Webpack bundler. 
+RISING SUN - a web application for a fictional restaurant set in Japan. The website was built using Webpack bundler. 
 
 https://dauletalzhanov.github.io/restaurant/
 
@@ -25,6 +25,15 @@ Restaurant consists of following pages:
 - The paragraph under it are just Lorem Ipsum in English and Japanese
 - The third section section is a segment for user reviews inspired by Google Reviews
 - The data about the reviews are stored within the local .json file
+
+#### Menu Page
+- Menu Page is a page for a menu
+- Menu has following categories for food: Ramen, Rice Dishes, Sushi, Noodles, Dessert and Drinks
+- For each category, there are five dishes
+- The data is pulled from the .json file as well
+
+#### Contact Page
+- 
 
 ## Webpack
 This section explains how webpack was used to provide functionality for the web application.
