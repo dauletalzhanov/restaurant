@@ -42,6 +42,7 @@ This section explains how Webpack was used to provide functionality for the web 
 - Webpack version: 5.91.0
 - Template form
 - JSON parser
+- Image / Asset module
 - CSS parser
 - webpack-dev-server (for development)
 - Standard webpack building/compiling for production
